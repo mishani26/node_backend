@@ -1,13 +1,7 @@
 <title>{{title}}</title>
 <h1>murrrrr</h1>
 <p>Welcome to {{title}}</p>
-<input type="text" name="name">
-<button type="submit" name="submit">submit</button>
-{{#if condition}}
-<h1>+condition is {{condition}}</h1>
-{{else}}
-<h1>-condition is {{condition}}</h1>
-{{/if}}
-{{#each testArray}}
-<p>{{this}}</p>
-{{/each}}
+<form action="/" method="post">
+  <input type="text" name="name"><br>
+  <button type="submit" name="submit">submit</button>
+</form>
